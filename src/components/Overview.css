@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.container {
+
+    padding: 10px;
+    height: 120px;
+    width: 240px;
+    border: 2px solid #ECEEF6;
+    border-radius: 6px;
+}
+
+.container>p {
+    display: inline;
+    padding: 5px 0px 1px 0px;
+}
+
+h1 {
+    padding-top: 7px;
+}
+
+span {
+    font-size: 1rem;
+    float: right;
+    padding: 1px;
+    color: rgb(60, 185, 60);
+    background: #c1f4c3;
+    border-radius: 20px;
+    font-weight: bolder;
+}
